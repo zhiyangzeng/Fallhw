@@ -1,0 +1,5 @@
+This natural ordering for Shape is bad because:
+
+1. It tells us nothing about an object other than the area when comparing to other object. No information about the object type or perimeter can be inferred from the comparison. 
+
+2. This ordering assumes that 2 objects are the same order if they have the same area, which contradicts the equals() method.
